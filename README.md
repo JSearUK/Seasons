@@ -1,5 +1,5 @@
 # Seasons
-Facilitates the transfer of Ren'py game data using the save folder method.
+Facilitates the transfer of Ren'py game data between projects, using the save folder method.
 
 Instructions for use are provided via the comments in the `season.rpy` file itself.
 
