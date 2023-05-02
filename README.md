@@ -1,20 +1,30 @@
 # Seasons
-Facilitates the transfer of Ren'py game data using the save folder method
+Facilitates the transfer of Ren'py game data using the save folder method.
 
-Instructions for use are provided vie the comments in the `season.rpy` file itself.
+Instructions for use are provided via the comments in the `season.rpy` file itself.
 
-I know that this works in Ren'Py 7.4.10.2178 and 7.4.11.2266
-I have not tested it in any other version - your mileage may vary!
+This code is freeware.
 
-# WARNING!
-This technique is NOT recommended or supported by the official Ren'Py development team!
-In fact, they are startled that it works at all!
+---
+WARNING!
+- This technique is NOT recommended or supported by the official Ren'Py development team!
+- In fact, they are startled that it works at all!
+- This code is provided "as is" - I will not be providing support.
+---
+```php
+Version 1.0
 
-Only data that is normally saved within save slots will be available:
-- Variables that have been properly defaulted.
+RenPy 7.4.10.2178 and 7.4.11.2266
+```
+- I have not tested it in any other version of Ren'Py
+---
+
+NOTE:
+### Only data that is normally saved within save slots will be available:
+- Variables that have been initialised with `default`.
 - JSON data added to the save via the relevant callback.
-This does not include:
-- Anything `define`d, including Characters.
-- Anything initialised as a Python one-liner ($).
+### This does not include:
+- Anything initialised with `define`, including Characters.
+- Anything initialised with a Python one-liner (`$`).
 - Transforms, etc.
-If you want these constants in the new project, you'll need to copy those manually as part of the script.
+### If you want these *constants* to be in the new project, you'll need to copy those manually as part of the script.
