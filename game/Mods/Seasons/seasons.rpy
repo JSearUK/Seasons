@@ -47,7 +47,7 @@ label end_of_season_saving:
     $ season_position = "Ending"
     # \/\/\/ DEVELOPER CAN SAFELY MODIFY THE SECTION BELOW \/\/\/
     # Example: scene here
-    $ renpy.say(narrator, "End of Season " + this_season + ". Make a save before quitting -\n- it will be loadable at the beginning of Season " + str(this_season + 1) + ".")
+    $ renpy.say(narrator, "End of Season " + str(this_season) + ". Make a save before quitting -\n- it will be loadable at the beginning of Season " + str(this_season + 1) + ".")
     # Example: stop music and sounds here
     # /\/\/\ DEVELOPER CAN SAFELY MODIFY THE ABOVE SECTION /\/\/\
     $ season_position = "Gameplay"
