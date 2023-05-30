@@ -20,6 +20,8 @@ RenPy 7.4.10.2178 and 7.4.11.2266
 ---
 
 NOTE:
+### All saves made with the previous Season(s) will remain visible; there will not be empty saves from Page 1.
+- There are plans to accomodate fresh save pages, but no timeline to do so.
 ### Only data that is normally saved within save slots will be available:
 - Variables that have been initialised with `default`.
 - JSON data added to the save via the relevant callback.
